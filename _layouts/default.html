@@ -5,7 +5,9 @@
 {% include header.html %}
 <!-- MAIN CONTENT -->
 <div id="main_content_wrap" class="outer">
-    {% include navigation.html context="/" %}
+    <div class="navigation">
+        {% include navigation.html context="/" %}
+    </div>
     <section id="main_content" class="inner">
         {{content}}
     </section>
