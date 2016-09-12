@@ -14,10 +14,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 twitter_username: jekyllrb
 github_username:  jekyll
-repository: bcgov/MyGovBC-notification-server.git
+repository: bcgov/MyGovBC-notification-server
 # Build settings
 markdown: kramdown
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+gems:
+  - jekyll-sitemap
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
