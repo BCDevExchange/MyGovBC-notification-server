@@ -1,4 +1,6 @@
 ---
+#
+#
 ---
 
 @import url(stylesheet.css);
@@ -6,14 +8,18 @@
 .navigation {
   ul {
     display: none;
+    list-style-type: none;
   }
-
   & > ul {
     display: block;
   }
-
-  .active > ul {
-    display: block;
+  .active {
+    & > a {
+      font-weight: bold;
+    }
+    & > ul {
+      display: block;
+    }
   }
 }
 
