@@ -17,6 +17,7 @@ github_username:  jekyll
 repository: bcgov/MyGovBC-notification-server.git
 # Build settings
 markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
